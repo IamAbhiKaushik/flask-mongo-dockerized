@@ -3,7 +3,6 @@ from pymongo import MongoClient
 from bson.json_util import dumps
 from datetime import datetime
 
-
 app = Flask(__name__)
 mongo = MongoClient('mongodb://mongo/test').db
 # mongo = MongoClient('mongodb://localhost:27017').db
